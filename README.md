@@ -31,3 +31,14 @@ If we want to add an inline SVG icon component to our button via the props. We c
 
 [using slots](https://vueschool.io/lessons/using-slots)
 
+## Named Slots
+
+Slots can have names. 
+
+```html
+<template v-slot:header>Header</template>
+OR
+<template #header>Header</template>
+```
+
+[named-slots](https://vueschool.io/lessons/named-slots)
